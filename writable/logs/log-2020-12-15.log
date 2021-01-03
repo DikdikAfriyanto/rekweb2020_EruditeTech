@@ -1,0 +1,9 @@
+CRITICAL - 2020-12-15 18:56:13 --> syntax error, unexpected '[', expecting ']'
+#0 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#3 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#7 {main}

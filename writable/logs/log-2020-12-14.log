@@ -1,0 +1,69 @@
+CRITICAL - 2020-12-14 21:21:59 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/tugas_besar/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/tugas_besar/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Models/BooksModel.php(16): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Books.php(21): App\Models\BooksModel->getBooks()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Books->index()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+#7 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-12-14 21:21:59 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /Applications/MAMP/htdocs/tugas_besar/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/Applications/M...', 100, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Books), true)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Debug/Exceptions.php(308): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 21:22:34 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/tugas_besar/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/tugas_besar/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Models/BooksModel.php(16): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Books.php(21): App\Models\BooksModel->getBooks()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Books->index()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+#7 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-12-14 21:22:34 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /Applications/MAMP/htdocs/tugas_besar/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/Applications/M...', 100, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Books), true)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Debug/Exceptions.php(308): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 21:22:46 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/tugas_besar/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/tugas_besar/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Models/BooksModel.php(16): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Books.php(21): App\Models\BooksModel->getBooks()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Books->index()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+#7 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-12-14 21:22:46 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /Applications/MAMP/htdocs/tugas_besar/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/Applications/M...', 100, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Books), true)
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Debug/Exceptions.php(308): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

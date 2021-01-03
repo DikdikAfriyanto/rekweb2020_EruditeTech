@@ -1,0 +1,24 @@
+CRITICAL - 2020-12-22 00:44:05 --> file_get_contents(): Failed to enable crypto
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/M...', 2, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(2): file_get_contents('https://api.kaw...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-12-22 00:47:44 --> file_get_contents(https://api.kawalcorona.com/indonesia): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/M...', 2, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(2): file_get_contents('https://api.kaw...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}

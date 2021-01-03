@@ -1,0 +1,12 @@
+CRITICAL - 2020-12-25 08:16:46 --> Undefined variable: title
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/layout/template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/tampil', Array, true)
+#4 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(32): view('pages/tampil')
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->tampil()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}

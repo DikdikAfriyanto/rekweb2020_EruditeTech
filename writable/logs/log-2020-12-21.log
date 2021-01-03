@@ -1,0 +1,137 @@
+CRITICAL - 2020-12-21 12:35:14 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 61, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:36:00 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 61, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:39:35 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:41:39 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:42:16 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:43:47 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:43:56 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:44:17 --> Undefined variable: books
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:47:02 --> Undefined variable: c
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 69, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:47:09 --> Undefined variable: c
+#0 /Applications/MAMP/htdocs/tugas_besar/app/Views/pages/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 69, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Pages.php(12): view('pages/home', Array)
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-12-21 12:48:44 --> unlink(img/1607758033_bd93d929ab882aad6ad9.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/1607...', '/Applications/M...', 128, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Books.php(128): unlink('img/1607758033_...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Books->delete('1')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#7 {main}
+CRITICAL - 2020-12-21 12:48:52 --> unlink(img/1607758033_bd93d929ab882aad6ad9.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/1607...', '/Applications/M...', 128, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Books.php(128): unlink('img/1607758033_...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Books->delete('1')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#7 {main}
+CRITICAL - 2020-12-21 12:49:24 --> unlink(img/1607758033_bd93d929ab882aad6ad9.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/1607...', '/Applications/M...', 198, Array)
+#1 /Applications/MAMP/htdocs/tugas_besar/app/Controllers/Books.php(198): unlink('img/1607758033_...')
+#2 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(918): App\Controllers\Books->update('1')
+#3 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+#4 /Applications/MAMP/htdocs/tugas_besar/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/tugas_besar/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Applications/MAMP/htdocs/tugas_besar/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#7 {main}
